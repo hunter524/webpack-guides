@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "webpack serve --devtool source-map --open --config webpackextractcss.config.js",
-    "buildExCss": "webpack --config webpackextractcss.config.js"
+    "dev": "webpack server --devtool source-map --open --config webpack.config.js",
+    "buildExCss": "webpack --config webpackextractcss.config.js",
+    "func": "webpack --config webpackfunc.config.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "clean-webpack-plugin": "^2.0.2",
     "css-loader": "^6.2.0",
