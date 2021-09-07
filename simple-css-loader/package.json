@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "dev": "webpack server --devtool source-map --open --config webpack.config.js",
-    "buildExCss": "webpack --config webpackextractcss.config.js",
-    "func": "webpack --config webpackfunc.config.js"
+    "buildExCss": "webpack --config webpackextractcss.config.js ",
+    "func": "webpack --config webpackfunc.config.js "
   },
   "author": "",
   "license": "ISC",
